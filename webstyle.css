@@ -1,0 +1,76 @@
+
+body {
+  background-color: #F8F9F9;
+  color: #707070;
+  width: 1270px;
+  height: 700px;
+}
+
+p {
+  font-family: "Avenir", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #707070;
+}
+
+a:visited {
+  color: #707070;
+}
+
+h1 {
+  font-family: "Georgia";
+}
+
+.box {
+  width: 1270px;
+  text-align: center;
+}
+
+.leftBar {
+  width: 458px;
+  text-align: right;
+  float: left;
+}
+
+.mainRight {
+  width: 664px;
+  float: right;
+  padding-right: 120px;
+}
+
+.next {
+  font-weight: bolder;
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+
+.leftHalf {
+  width: 602px;
+  height: 602px;
+  float: left;
+  text-align: right;
+}
+
+.rightHalf {
+  width: 482px;
+  height: 602px;
+  float: right;
+  padding-right: 120px;
+}
+
+.splash {
+  margin-top: 75px;
+}
+
+.info {
+  margin-top: 150px;
+}
+
+#model {
+  margin-top: 100px;
+}
