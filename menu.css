@@ -1,0 +1,84 @@
+body {
+	background-color: #F2EFEA;
+	font-family: "Futura", sans-serif;
+}
+
+.container {
+	width: 768px;
+	height: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left1 {
+	width: 47%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	animation-name: load;
+	animation-duration: 1s;
+	position: relative;
+	top: 300px;
+}
+
+@keyframes load {
+	0%   {top: 600px; opacity: 0}
+	100%  {top: 300px; opacity: 1}
+}
+
+#left2 {
+	width: 47%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	animation-name: move_up;
+	animation-duration: 1s;
+	position: relative;
+	top: -100px;
+}
+
+@keyframes move_up {
+	0%   {top: 300px;}
+	100%  {top: -100px;}
+}
+
+#right {
+	width: 47%;
+	height: 100%;
+	float: right;
+	font-size: 24px;
+	animation-name: move_down;
+	animation-duration: 1s;
+	position: relative;
+	top: 150px;
+}
+
+@keyframes move_down {
+	0%   {top: -300px; opacity: 0}
+	100%  {top: 150px; opacity: 1}
+}
+
+.title {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-size: 60px;
+}
+
+a:link {
+	color: #403D58;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #403D58;
+}
+
+a:hover {
+	color: #66D7D1;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 25px;
+}
