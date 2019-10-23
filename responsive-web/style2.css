@@ -55,3 +55,7 @@ img {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+a:link, a:visited {
+	color: black;
+}
