@@ -2,8 +2,14 @@
 body {
   background-color: #F8F9F9;
   color: #707070;
-  width: 1270px;
-  height: 700px;
+  width: 100%;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+	0%   {opacity: 0}
+	100%  {opacity: 1}
 }
 
 p {
@@ -28,20 +34,23 @@ h1 {
 }
 
 .box {
-  width: 1270px;
+  width: 90%;
   text-align: center;
+  margin: auto;
 }
 
 .leftBar {
-  width: 458px;
+  width: 35%;
   text-align: right;
   float: left;
+  margin-right: 1%;
 }
 
 .mainRight {
-  width: 664px;
+  width: 53%;
   float: right;
-  padding-right: 120px;
+  padding-right: 10%;
+  margin-left: 1%;
 }
 
 .next {
@@ -51,27 +60,16 @@ h1 {
 }
 
 .leftHalf {
-  width: 602px;
-  height: 602px;
+  width: 47%;
+  height: 47%;
   float: left;
   text-align: right;
+  margin-right: 3%;
 }
 
 .rightHalf {
-  width: 482px;
-  height: 602px;
+  width: 47%;
+  height: 47%;
   float: right;
-  padding-right: 120px;
-}
-
-.splash {
-  margin-top: 75px;
-}
-
-.info {
-  margin-top: 150px;
-}
-
-#model {
-  margin-top: 100px;
+  margin-left: 3%;
 }
