@@ -41,3 +41,7 @@ img {
   margin-top: 10px;
   background-color: orange;
 }
+
+a:link, a:visited {
+	color: black;
+}
