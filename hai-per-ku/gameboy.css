@@ -1,0 +1,205 @@
+body {
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  height: 700px;
+}
+
+.left {
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+.right {
+  width: 40%;
+  height: 100%;
+  float: right;
+}
+
+.poem {
+  font-family: "VCR OSD Mono", monospace;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  top: 40%;
+  left: 40%;
+  translate: (-50%, -50%);
+}
+
+.bomb {
+  position: relative;
+  top: 35%;
+  translate: (0, -50%);
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+.black {
+  color: black;
+  animation-name: erase;
+  animation-duration: 0.75s;
+}
+
+@keyframes erase {
+	0%   {color: white}
+	100%  {color: black}
+}
+
+#heart1 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 100px;
+  top: 330px;
+  z-index: 2;
+  opacity: 0;
+  animation: 0.75s ease-in-out 0.75s flutter;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+#heart2 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 211px;
+  top: 209px;
+  z-index: 2;
+  opacity: 0;
+  animation: 0.75s ease-in-out 0.25s flutter;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+#heart3 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 360px;
+  top: 405px;
+  z-index: 2;
+  opacity: 0;
+  animation: 0.75s ease-in-out 0.5s flutter;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+#heart4 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 855px;
+  top: 396px;
+  z-index: 2;
+  opacity: 0;
+  animation: 0.75s ease-in-out 0.75s flutter;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+#heart5 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 525px;
+  top: 311px;
+  z-index: 2;
+  opacity: 0;
+  animation: 0.75s ease-in-out 0.25s flutter;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+#heart6 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 880px;
+  top: 200px;
+  z-index: 2;
+  opacity: 0;
+  animation: 0.75s ease-in-out 0.5s flutter;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+#heart7 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 999px;
+  top: 150px;
+  z-index: 2;
+  opacity: 0;
+  animation: 0.75s ease-in-out 0.75s flutter;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+#heart8 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 1111px;
+  top: 292px;
+  z-index: 2;
+  opacity: 0;
+  animation: 0.75s ease-in-out 0.25s flutter;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+#heart9 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 650px;
+  top: 450px;
+  z-index: 2;
+  opacity: 0;
+  animation: 0.75s ease-in-out 0.5s flutter;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+
+#love {
+  width: 55px;
+  height: 25px;
+  position: absolute;
+  left: 480px;
+  top: 300px;
+  background-color: black;
+}
+
+#heart {
+  opacity: 0;
+}
+
+.hearts:hover > #heart1, .hearts:hover > #heart2, .hearts:hover > #heart3,
+.hearts:hover > #heart4, .hearts:hover > #heart5, .hearts:hover > #heart6,
+.hearts:hover > #heart7, .hearts:hover > #heart8, .hearts:hover > #heart9 {
+  animation-play-state: running;
+}
+
+@keyframes flutter {
+	0%   {opacity: 0}
+	50%  {opacity: 1}
+  100% {opacity: 0}
+}
