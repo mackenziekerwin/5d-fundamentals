@@ -50,7 +50,7 @@ body {
 	animation-name: move_down;
 	animation-duration: 1s;
 	position: relative;
-	top: 100px;
+	top: 50px;
 }
 
 @keyframes move_down {
