@@ -55,7 +55,7 @@ body {
 
 @keyframes move_down {
 	0%   {top: -300px; opacity: 0}
-	100%  {top: 100px; opacity: 1}
+	100%  {top: 50px; opacity: 1}
 }
 
 .title {
