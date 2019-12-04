@@ -50,12 +50,12 @@ body {
 	animation-name: move_down;
 	animation-duration: 1s;
 	position: relative;
-	top: 50px;
+	top: 75px;
 }
 
 @keyframes move_down {
 	0%   {top: -300px; opacity: 0}
-	100%  {top: 50px; opacity: 1}
+	100%  {top: 75px; opacity: 1}
 }
 
 .title {
