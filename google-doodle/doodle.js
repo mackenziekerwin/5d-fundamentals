@@ -10,7 +10,7 @@ d3.select("#play").on("click", function() {
   paths.each(function(p, i) {
     var totalLength = this.getTotalLength();
     var path = d3.select(this);
-    path.attr("opacity", 1)
+    path.style("opacity", 1)
       .attr("stroke-dasharray", totalLength + " " + totalLength)
       .attr("stroke-dashoffset", totalLength)
       .transition()
